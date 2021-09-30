@@ -1,0 +1,7 @@
+Compilare:
+
+- nvcc -o template-matching template-matching.cu
+
+Eseguire:
+
+- nvprof .\template-matching immagini\original.BMP immagini\templateC.bmp immagini\output.bmp   
